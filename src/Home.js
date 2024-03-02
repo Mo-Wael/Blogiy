@@ -1,6 +1,9 @@
 import BlogList from "./BlogList";
 import useFetch from "./usefetch";
 
+// for running the json file
+// npx json-server --watch data/db.json --port 8000
+
 const Home = () => {
     // // let name = 'Mario';
     // const [name, setName] = useState('Mario');
