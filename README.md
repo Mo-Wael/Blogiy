@@ -1,5 +1,13 @@
 # Getting Started with Create React App
 
+## About this Project
+
+This little project is about creating a blog app with ReactJs with json server as a backend, using several React hooks (like useState(), useEffect()) and customized props.
+with a simple deisng and calm color and font.
+<img src="./project_photos/homePage.jpg">
+<img src="./project_photos/insideBlog.jpeg">
+<img src="./project_photos/creatingBlog.jpeg">
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -13,6 +21,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+### `npx json-server --watch data/db.json --port 8000`
+
+Runs the Json server in the development mod.\
 
 ### `npm test`
 
@@ -68,3 +80,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
